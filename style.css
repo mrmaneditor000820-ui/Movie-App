@@ -53,3 +53,17 @@ body{
         transform: translateY(10px);
     }
 }
+
+.clock{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255,255,255,0.1);
+    border-radius: 50%;
+    backdrop-filter: blur(15px);
+    background: rgb(255, 255, 255,0.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0,0.2);
+}
+
