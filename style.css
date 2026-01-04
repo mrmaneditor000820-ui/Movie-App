@@ -67,3 +67,18 @@ body{
     box-shadow: 0 0 30px rgba(0, 0, 0,0.2);
 }
 
+.clock .clock-bg img{
+    width: 100%;
+    height: 100%;
+}
+
+.clock::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 15; 
+}
+
